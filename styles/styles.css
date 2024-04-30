@@ -5,7 +5,7 @@
     color: #FF7A00;
 }
 .container{
-    margin: 3rem;
+    /* margin: 3rem; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,10 +24,10 @@ form{
 }
 
 .inputs{
-    width: 800px;
+    width: 100%;
     height: 75px;
     margin-bottom: 1rem;
-    font-size: 2.5rem;
+    font-size: 4vw;
     border: none;
     background-color: #ff5e0083;
     color: white;
@@ -52,32 +52,65 @@ form{
     border-radius: 15px;
 }
 
-#signup-link{
+#signup-login-link{
     font-size: 1.5rem;
     color: black;
 }
 
-#welcome{
-    padding-bottom: 5rem;
-    margin: 1rem;
+.dropdown{
+    margin-top: 1rem;
+    height: fit-content;
+    font-size: 3vw;
+    background-color:#ff5e0083;
+    color: white;
+    width: 100%;
 }
-.balance{
+
+.dropdown option{
+    color: white;
+}
+
+#welcome{
+    margin: 1rem 1rem 10vh 1rem;
+    padding: 10px;
+    border: #FF7A00 2px solid;
+    width: fit-content;
+    height: fit-content;
+    font-size: 5vw;
+}
+#balance{
     background-color: #FF7A00;
-    font-size: 5rem;
     width: 50%;
     margin: auto;
     border-radius: 10px;
+    height: fit-content;
 }
 
-.balance p{
+#balance p{
     color: white;
     text-align: center;
+    font-size: 8vw;
 }
 
 .dashboard-buttons{
-    display: inline-block; 
+    display: block;
     width: 25%;
-    margin-left: 15rem;
     margin-top: 3rem;
+    background-color: #FF7A00;
+    border: none;
+    height: 4rem;
+    border-radius: 10px;
+    height: fit-content;
+    width: fit-content;
+    padding: 13px;
+    display: flex;
+    align-self: center;
+}
+
+.dashboard-buttons a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 4vw;
 }
 

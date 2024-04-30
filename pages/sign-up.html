@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Bank Account Manager</h1>
+        <form action="login" method="get">
+            <div>
+                <label for="email" class="label">Email</label><br>
+                <input type="email" id="email" class="inputs">
+            </div>
+            <div>
+                <label for="username" class="label">Username</label><br>
+                <input type="text" id="username" class="inputs">
+            </div>
+            <div>
+                <label for="password" class="label">Password</label><br>
+                <input type="password" id="password" class="inputs">
+            </div>
+            <div>
+                <label for="purpose" class="label">Why are you making an account?</label><br>
+                <select name="purpose" id="purpose" class="dropdown">
+                    <option value="budgeting">To budget my finances</option>
+                    <option value="large-goal">To save for a goal (large)</option>
+                    <option value="small-goal">To save for a goal (small)</option>
+                    <option value="tracking">To track incoming/outgoing finances</option>
+                    <option value="other">Other/Prefer not to say</option>
+                </select>
+            </div>
+            <button type="submit" class="login-signup">Sign Up</button>
+        </form>
+        <p id="signup-login-link">Already have an account? <a href="index.html">Log in</a></p>
+    </div>
+</body>
+</html>
