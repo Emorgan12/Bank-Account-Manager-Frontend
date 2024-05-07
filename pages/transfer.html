@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>Transfer Funds</title>
+</head>
+<body>
+    <div class="container">
+        <p class="label">How much would you like to transfer?</p>
+            <div class="withdraw-deposit-parent">
+                <button class="withdraw-deposit-button">+</button>
+                <p class="withdraw-deposit">£180</p>
+                <button class="withdraw-deposit-button">-</button>
+            </div>
+        <form action="transfer" style="margin-top: 0;">
+            <div>
+                <label for="name" class="label">Name on card</label><br>
+                <input type="text" class="inputs" id="name">
+            </div>
+            <div>
+                <label for="number" class="label">Account Number</label><br>
+                <input type="text" class="inputs" id="number">
+            </div>
+            <div>
+                <label for="code" class="label">Sort Code</label><br>
+                <input type="text" class="inputs" id="code">
+            </div>
+            <div>
+                <label for="ref" class="label">Reference</label><br>
+                <input type="text" class="inputs" id="ref">
+            </div>
+            <button class="withdraw-deposit-button">Transfer</button>
+        </form>
+        <p style="font-size: 2vw;">Note: You cannot transfer an amount higher than your current balance</p>
+    </div>
+</body>
+</html>

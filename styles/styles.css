@@ -117,17 +117,17 @@ form{
 .withdraw-deposit-button{
     display: inline-flex;
     margin: 1rem 0;
-    padding: 0;
+    padding: 1rem;
     background-color: #FF7A00;
     color: white;
     border: none;
-    width: 10vw;
-    height: 9vw;
+    width: fit-content;
+    height: fit-content;
     font-size: 7vw;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
-    margin: 0 2rem;
+    margin: 2rem;
 }
 
 .withdraw-deposit{
@@ -140,4 +140,6 @@ form{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    border: #FF7A00 5px solid;
+    border-radius: 50px;
 }
